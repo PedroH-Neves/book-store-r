@@ -106,9 +106,9 @@ Clone this repository to your desired folder:
 
 - Open editor terminal
 
-- Digit "git clone https://github.com/PedroH-Neves/bookstore-react.git"
+- Digit "git clone https://github.com/PedroH-Neves/book-store-react.git"
 
-- Then "cd bookstore-react"
+- Then "cd book-store-react"
 
 - File editing can then be applied using any code editor.
 

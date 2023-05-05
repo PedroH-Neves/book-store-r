@@ -1,6 +1,5 @@
 import React from 'react';
-import
-{
+import {
   BrowserRouter as Router, Routes, Route, Link,
 }
   from 'react-router-dom';
@@ -11,19 +10,17 @@ import Book from './components/BookList';
 function App() {
   return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/categories">Categories</Link></li>
-          </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/categories">Categories</Link></li>
+        </ul>
+      </nav>
 
-        <Routes>
-          <Route path="/" element={<Book />} />
-          <Route path="/Categories" element={<Categories />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Book />} />
+        <Route path="/Categories" element={<Categories />} />
+      </Routes>
     </Router>
   );
 }
