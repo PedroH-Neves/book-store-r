@@ -18,7 +18,6 @@ const Book = ({
         by
         <p>{author}</p>
         <p>{category}</p>
-        <p>{itemId}</p>
       </div>
       <div>
         <button type="button" onClick={handleRemoveBook}>Remove</button>
